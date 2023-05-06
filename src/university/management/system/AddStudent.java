@@ -158,7 +158,7 @@ public class AddStudent extends JFrame implements ActionListener{
         cancel.setBounds(450,550,120,30);
         cancel.setBackground(Color.BLACK);
         cancel.setForeground(Color.WHITE);
-        submit.addActionListener(this);
+        cancel.addActionListener(this);
         cancel.setFont(new Font("Tahoma",Font.BOLD,15));
         add(cancel);
         

@@ -120,7 +120,7 @@ public class EnterMarks extends JFrame implements ActionListener {
         cancel.setBounds(280, 360, 150, 25);
         cancel.setBackground(Color.BLACK);
         cancel.setForeground(Color.WHITE);
-        submit.addActionListener(this);
+        cancel.addActionListener(this);
         cancel.setFont(new Font("Tahoma", Font.BOLD, 15));
         add(cancel);
         

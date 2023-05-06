@@ -88,6 +88,7 @@ public class Project extends JFrame implements ActionListener{
         
         JMenuItem examinationDetails = new JMenuItem("Examination Results");
         examinationDetails.setBackground(Color.WHITE);
+        examinationDetails.addActionListener(this);
         exam.add(examinationDetails);
         
         JMenuItem enterMarks = new JMenuItem("Enter Marks");
@@ -119,10 +120,12 @@ public class Project extends JFrame implements ActionListener{
         
         JMenuItem feeStructure = new JMenuItem("Fee Structure");
         feeStructure.setBackground(Color.WHITE);
+        feeStructure.addActionListener(this);
         fee.add(feeStructure);
         
         JMenuItem feeForm = new JMenuItem("Student Fee Form");
         feeForm.setBackground(Color.WHITE);
+        feeForm.addActionListener(this);
         fee.add(feeForm);
         
         
@@ -141,9 +144,19 @@ public class Project extends JFrame implements ActionListener{
         calc.addActionListener(this);
         utility.add(calc);
         
+        //about
+        JMenu about = new JMenu("About");
+        about.setForeground(Color.blue);
+        mb.add(about);
+        
+        JMenuItem ab = new JMenuItem("About");
+        ab.setBackground(Color.blue);
+        ab.addActionListener(this);
+        about.add(ab);
+        
          //Exit
         JMenu exit = new JMenu("Exit");
-        exit.setForeground(Color.blue);
+        exit.setForeground(Color.red);
         mb.add(exit);
         
         JMenuItem ex = new JMenuItem("Exit");
@@ -199,7 +212,17 @@ public class Project extends JFrame implements ActionListener{
              new UpdateStudent();
          }else if (msg.equals("Enter Marks")) {
              new EnterMarks();
+         }else if (msg.equals("Examination Results")) {
+             new ExaminationDetails();
+         }else if (msg.equals("Fee Structure")) {
+             new FeeStructure();
+         }else if (msg.equals("About")) {
+             new About();
+         }else if (msg.equals("Student Fee Form")) {
+             new StudentFeeForm();
          }
+         
+         
          
     }
     
