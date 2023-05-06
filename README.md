@@ -32,4 +32,39 @@ University Management System made by Java Swing
 
 ![image](https://user-images.githubusercontent.com/72154925/236629224-0b5d8c39-b216-499d-a720-647efba2f391.png)
 
+# Apply Leave (Student)
+![image](https://user-images.githubusercontent.com/72154925/236629624-75e9f70a-76d2-4caa-928c-be5e4643f803.png)
+
+# Apply Leave (Teacher)
+![image](https://user-images.githubusercontent.com/72154925/236629688-39ebe65e-f117-4436-80fe-48e3545e12c2.png)
+
+
+# Leave Details (Student)
+![image](https://user-images.githubusercontent.com/72154925/236629722-e755680d-19b1-4200-ab90-0fb4ac8f420f.png)
+
+
+# Leave Details (Teacher)
+![image](https://user-images.githubusercontent.com/72154925/236629749-786933cd-996f-4441-82c1-fdfd4eae1faa.png)
+
+# Enter Marks
+![image](https://user-images.githubusercontent.com/72154925/236629813-f6c7ab27-6d91-4458-8bf4-70db19300b42.png)
+
+# Examination Results
+![image](https://user-images.githubusercontent.com/72154925/236629895-3f78ce81-3323-46d0-90e2-fc78fe7413fd.png)
+
+### Marks
+![image](https://user-images.githubusercontent.com/72154925/236629914-d31910a1-486c-4cfb-9302-4bc2b24d8470.png)
+
+# Update Teacher
+![image](https://user-images.githubusercontent.com/72154925/236629955-6bc6a4d4-5ad9-4e1e-ac27-a06b294aa2ae.png)
+
+# Update Student
+
+![image](https://user-images.githubusercontent.com/72154925/236629979-18ce3c88-4ce6-4724-9069-61b59edb3fd4.png)
+
+# Student Fee Form
+![image](https://user-images.githubusercontent.com/72154925/236630037-61e921c5-5f44-4cc3-ac7b-9a3400bfb07d.png)
+
+# About
+![image](https://user-images.githubusercontent.com/72154925/236630057-e6a844fe-01b2-47e1-b3df-f3422392a6b4.png)
 
